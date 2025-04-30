@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDO0Rll1LsKItDMzT2r__trPu8oOobxbW0",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "vocalis-6388a.firebaseapp.com",
   projectId: "vocalis-6388a",
   storageBucket: "vocalis-6388a.firebasestorage.app",
