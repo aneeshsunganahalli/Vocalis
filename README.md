@@ -1,27 +1,5 @@
 # 🎙️ VocalPrep
 
-<div align="center">
-  
-  **AI-Powered Interview Practice Platform**
-  
-  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" alt="Next.js" width="50" height="50"/>
-  </a>
-  <a href="https://ai.google.dev/models/gemini" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google Gemini" width="50" height="50"/>
-  </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" alt="Firebase" width="50" height="50"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" width="50" height="50"/>
-  </a>
-</div>
-  
-</div>
-
-## 📋 Overview
-
 VocalPrep is an advanced interview preparation platform leveraging artificial intelligence to help job seekers master their interview skills. Through Google's Gemini LLM and voice interaction capabilities, VocalPrep delivers:
 
 - **Realistic interview simulations** that adapt to your responses
@@ -57,50 +35,12 @@ Whether you're preparing for technical interviews, behavioral assessments, or bo
 
 VocalPrep is built using modern web technologies:
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="96">
-        <a href="https://nextjs.org/">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="48" height="48" alt="Next.js" />
-        </a>
-        <br>Next.js
-      </td>
-      <td align="center" width="96">
-        <a href="https://vapi.ai/">
-          <img src="https://api.placeholder.com/48/48" width="48" height="48" alt="VAPI" />
-        </a>
-        <br>VAPI
-      </td>
-      <td align="center" width="96">
-        <a href="https://ai.google.dev/models/gemini">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="48" height="48" alt="Gemini" />
-        </a>
-        <br>Gemini
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="96">
-        <a href="https://firebase.google.com/">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="48" height="48" alt="Firebase" />
-        </a>
-        <br>Firebase
-      </td>
-      <td align="center" width="96">
-        <a href="https://tailwindcss.com/">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="48" height="48" alt="Tailwind" />
-        </a>
-        <br>Tailwind
-      </td>
-      <td align="center" width="96">
-        <a href="https://day.js.org/">
-          <img src="https://api.placeholder.com/48/48" width="48" height="48" alt="Day.js" />
-        </a>
-        <br>Day.js
-      </td>
-    </tr>
-  </table>
-</div>
+- **[Next.js](https://nextjs.org/)** - React framework for full-stack development
+- **[VAPI](https://vapi.ai/)** - Voice interaction capabilities
+- **[Google Gemini](https://ai.google.dev/models/gemini)** - Large language model powering the AI interviewer
+- **[Firebase](https://firebase.google.com/)** - Authentication and database
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Day.js](https://day.js.org/)** - Date formatting and manipulation
 
 ## 📂 Project Structure
 
