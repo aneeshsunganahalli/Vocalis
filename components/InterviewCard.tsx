@@ -5,9 +5,12 @@ import { getRandomInterviewCover } from '@/lib/utils';
 import { Button } from './ui/button';
 import Link from 'next/link';
 import DisplayTechIcons from './DisplayTechIcons';
+import { getFeedbackByInterview } from '@/lib/actions/general.action';
 
-const InterviewCard = ({id, userId, role, type, techstack, createdAt} : InterviewCardProps) => {
-  const feedback = null as Feedback | null;
+const InterviewCard = async ({ id, userId, role, type, techstack, createdAt }: InterviewCardProps) => {
+  const feedback = userId && id
+    ? await getFeedbackByInterview({ interviewId: id, userId })
+    : null;
   const normalisedType = /mix/gi.test(type) ? "Mixed" : type;
   const formattedDate = dayjs(feedback?.createdAt || createdAt || Date.now()).format("MMM D, YYYY")
 
@@ -30,11 +33,11 @@ const InterviewCard = ({id, userId, role, type, techstack, createdAt} : Intervie
           </h3>
           <div className='flex flex-row gap-5 mt-3'>
             <div className='flex flex-row gap-2'>
-              <Image src={"/calendar.svg"} alt='calendar' width={22} height={22}/>
+              <Image src={"/calendar.svg"} alt='calendar' width={22} height={22} />
               <p>{formattedDate}</p>
             </div>
             <div className='flex flex-row gap-2 items-center'>
-              <Image src={"/star.svg"} alt='star' width={22} height={22}/>
+              <Image src={"/star.svg"} alt='star' width={22} height={22} />
               <p>{feedback?.totalScore || '---'}/100</p>
             </div>
           </div>
